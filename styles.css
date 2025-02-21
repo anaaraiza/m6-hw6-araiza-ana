@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header {
+    width: 100%; 
+    border-bottom: 4px solid darkcyan;
+    background: lightcyan;
+    padding-top: 20px;
+    padding-bottom: 0px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.header-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    max-width: 800px;
+}
+
+.h1-container
+{
+    display: flex;
+    align-items: center;
+    background-color: darkcyan;
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 0%;
+    margin-left: 20px;
+}
+    
+ .h1-styling {   
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 30px;
+    margin: 0;
+    color: white;
+}
+
+
+.nav-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: darkcyan;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+body  {
+   position:relative;
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/restaurant.png");
+    background-color: teal;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+.center-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    min-width: 800px;
+    max-width: 800px;
+    margin: auto;
+    padding: 0 20px;
+
+}
+
+.content-container {
+    background-color:  lightcyan;
+    padding: 20px;
+    margin: 20px;
+    min-width: 600px;
+}
+
+
+.sidebar {
+    min-width: 200px;
+    min-height: 80px;
+    background-color: lightcyan;
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidebar-h2 {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 20px;
+    margin: 20px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.sidebar img {
+    width: 50px;
+    height: 50px;
+    margin: 10px 0;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin-top: auto;
+    border-top: darkcyan 3px solid;
+    padding-top: 10px;
+}
+
+
+.headshot {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.about-me {
+    margin: 20px 0;
+    border-bottom: darkcyan 3px solid;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: darkcyan;
+}
+
+p {
+    border: 12px transparent;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+footer {
+    position: fixed;
+    bottom: 0; 
+    left: 0;
+    width: 100%; 
+    display: flex; 
+    justify-content: center; 
+    
+    background: lightcyan;
+    height: 20px;
+    padding: 10px;
+    border-top: 3px darkcyan solid;
+}
